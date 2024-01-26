@@ -1,0 +1,25 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="Servidor ssh">
+
+        <EditTextPreference
+            app:key="config_selected"
+            app:title="Host"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="config_user"
+            app:title="Usuario"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="config_password"
+            app:title="Clave"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:key="config_command"
+            app:title="Comando"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
